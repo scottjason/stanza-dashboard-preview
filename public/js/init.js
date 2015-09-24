@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   var module = {};
 
-  module.bindListeners = function(cb) {
+  module.bindListeners = function() {
     document.getElementById('preview').addEventListener('click', module.renderPreview, false);
     document.getElementById('stanza-site').addEventListener('click', module.viewStanza, false);
   };
