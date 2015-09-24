@@ -16,5 +16,5 @@ document.addEventListener("DOMContentLoaded", function() {
     var url = 'https://stanza.co/';
     window.open(url);
   };
-  module.bindListeners(module.startCarousel);
+  module.bindListeners();
 });
