@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+html {
+  height: 100%;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  background-color: black;
+  font-weight: 300;
+  font-size: 15px;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.clr {
+  clear: both;
+  float: none;
+}
+
+.main {
+  width: 95%;
+  max-width: 960px;
+  padding: 0 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main > header {
+  padding: 40px 0;
+}
+
+.main > header h1 {
+  font-size: 24px;
+  line-height: 38px;
+  margin: 0;
+  font-weight: 700;
+  color: #46A8E5;
+  text-align: center;
+}
+
+.main > header h1 span {
+  display: block;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+}
+
+.main > header h1 span:nth-child(2) {
+  color: #46A8E5;
+  font-weight: 400;
+}
+
+.main > header h1 span:nth-child(3) {
+  color: #F76767;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 110px;
+  height: 30px;
+  white-space: nowrap;
+  margin: auto;
+  margin-bottom: -15px;
+  position: relative;
+}
+
+.main p {
+  padding: 30px 0 0;
+  text-align: center;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.js .fixed-bar {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.js .gallery {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 2px 1px rgba(255, 255, 255, 0.9), 0 -2px 1px rgba(255, 255, 255, 0.9);
+}
